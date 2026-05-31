@@ -1,17 +1,30 @@
 # Kelly Advisor — 凱利公式 survival-first 決策工具
 
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg) ![Claude Skill](https://img.shields.io/badge/Claude-Skill-8A2BE2.svg) ![Version](https://img.shields.io/badge/version-0.1.2-blue.svg) ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
+
 > 一個 [Claude](https://claude.ai) skill。把凱利公式（Kelly Criterion）變成一個會逼你想清楚、
 > 會幫你防破產、必要時會**拒絕回答**的決策夥伴。
 >
 > **「活下來，才能複利。」** · *Survive first. Compound later.*
 
-**作者**：**駱君昊 (Hao)** · @Hao0321_Stuido · AIGC / 3D / VFX 數位創作者
+**作者**：**駱君昊 (Hao)** · [@Hao0321](https://github.com/Hao0321) · @Hao0321_Stuido · AIGC / 3D / VFX 數位創作者
+
+> 🌐 **English speaker?** → **[Read the English version (README.en.md)](README.en.md)**
+
+---
+
+> **TL;DR (English):** A Claude skill that applies the Kelly Criterion to any
+> "could-win-could-lose" money decision — but **survival-first**, not a naive
+> calculator. It sizes repeatable bets (fractional Kelly), and for one-shot /
+> irreversible decisions (career change, going all-in) it **refuses to give a
+> number** and runs a ruin-check instead. It never gives stock tips or guarantees
+> returns. **Survive first. Compound later.** → full English docs: [README.en.md](README.en.md)
 
 ---
 
 ## 先講一個實驗
 
-2016 年有人找了 61 位**有金融背景**的人，給真錢，讓他們賭一個**事先明說正面機率 60%** 的硬幣。
+2016 年 Haghani & Dewey 找了 61 位**有金融背景**的人，給真錢，讓他們賭一個**事先明說正面機率 60%** 的硬幣。
 edge 巨大、已知、對玩家有利。結果呢？
 
 - 約 **28% 的人賭到歸零**
@@ -20,6 +33,9 @@ edge 巨大、已知、對玩家有利。結果呢？
 
 **給你一個已知的、巨大的 edge，多數聰明人還是會輸光。**
 問題從來不是「有沒有 edge」，是「**有沒有紀律按正確比例下注**」。
+
+> 來源：Haghani & Dewey, *"Rational Decision-Making under Uncertainty: Observed
+> Betting Patterns on a Biased Coin"* (2016)。數字為廣泛引用值，引用請以原論文為準。
 
 凱利公式就是那個「正確比例」的數學。這個 skill，就是幫你**真的用上它**——而且是用對的方式用。
 
@@ -131,6 +147,15 @@ kelly-advisor/
 本 skill 是**決策紀律工具，不是投資建議**。不報明牌、不推薦標的、不保證報酬。
 所有機率與賠率由使用者自行估計，輸出僅供思考參考。涉及真實金錢請自負風險。
 
+## 姊妹 skill
+
+- **[genius-advisor](https://github.com/Hao0321)** — 9 位思考者圓桌（Musk / Jobs / Buffett / Munger / Naval / Kiyosaki / MrBeast / Belfort / Trump），負責「**該不該做**」的質化判斷。kelly-advisor 負責「**該押多少**」的量化紀律。兩個一起用最強。
+- 作者另有 7 個 live 工具（AIGC / 3D / VFX / dev tools）+ 跨平台 ~36K 受眾。本 skill 與 genius-advisor 是同一套「決策 OS」生態。
+
+---
+
 ## License
 
 MIT — 保留作者標註（駱君昊 / Hao）即可修改、使用、商用。歡迎 fork、PR。
+
+**覺得有用請按 ⭐ Star** — 也歡迎開 issue 分享你的使用案例或想加的功能。

@@ -1,5 +1,12 @@
 # Changelog — kelly-advisor (skill)
 
+## v0.1.2 — 2026-06-01（對抗式 audit 後優化）
+
+2 個獨立 reviewer audit 後修補：
+- kelly-math.md：連續型公式補無風險利率 `(μ−r)/σ²` + 重尾警告；投資型 f>1 說明；2016 實驗加論文出處 + 誠實標註。
+- SKILL.md 速查表：連續型公式同步改 `(μ−r)/σ²`。
+- 新增英文 README.en.md（全球觸及）+ 包裝（badges / star CTA / trust signal / worked examples）。
+
 ## v0.1.1 — 2026-05-31（dogfood hardening）
 
 第一次實測（3 mode）抓到 2 個設計漏洞，照「每個 failure 寫進 skill」原則修補：

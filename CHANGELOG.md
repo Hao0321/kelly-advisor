@@ -1,5 +1,23 @@
 # Changelog — kelly-advisor (repo)
 
+## v0.1.2 — 2026-06-01（開源後優化 — 對抗式 audit + 全球觸及）
+
+**對你的意義（白話）**：這版讓工具的數學更精確、英文使用者也讀得懂、可信度信號更完整。
+**Origin**：開源上 GitHub 後，跑 2 個獨立 reviewer 做對抗式 audit（數學正確性 8/10 + 開源質量 7.5/10）。
+
+### 新增 / 改進
+- **英文版 `README.en.md`**（完整翻譯）+ 中文 README 頂部加英文 TL;DR + 雙向語言切換連結（解鎖全球觸及）。
+- **數學精確化**（audit 抓到，已修）：
+  - 連續型公式 `f*≈μ/σ²` → 標明 `(μ−r)/σ²`（超額報酬須先扣無風險利率）+ 重尾資產警告。
+  - 投資型 f 可 >1 的說明（單筆非全損 → 可槓桿；賭注型全損 → f≤1）。
+  - 2016 硬幣實驗加完整論文出處（Haghani & Dewey）+ 誠實標註「數字未逐一核對原文，引用以原論文為準」。
+- **包裝**：README 加 badges（MIT / Claude Skill / version / PRs）、star CTA、作者 trust signal、姊妹 skill genius-advisor 連結 + worked examples（Mode 1 給數字 vs Mode 3 拒答對比）。
+- **整合**：genius-advisor `_index.md` 加 kelly-advisor 雙向 pointer（v0.7.6）。
+
+### 仍待辦
+- README 對話截圖（視覺 demo，需 Hao 跑一次截圖）。
+- 2016 數字對原論文逐字核對。
+
 ## v0.1.1 — 2026-05-31（dogfood hardening）
 首次實測（3 mode）抓到 2 漏洞並修補：① All-in tie-breaker（含「all-in/全押/停掉其他」→ 強制 Mode 3）② Mode 1 先定義 bankroll（避免把「佔總資產%」當「佔 bankroll%」）。詳見 `kelly-advisor/CHANGELOG.md` + decision-protocol G 段。
 

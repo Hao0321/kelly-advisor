@@ -2,6 +2,9 @@
 for-me/
 **/for-me/
 
+# 本地小抄（給 Hao 自己看的 push 指令，不進公開 repo）
+PUSH-TO-GITHUB.md
+
 # OS / editor
 .DS_Store
 Thumbs.db

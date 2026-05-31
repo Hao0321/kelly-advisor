@@ -1,0 +1,10 @@
+# 私有內容 — 不進公開 repo（Hao 生態 for-me 慣例）
+for-me/
+**/for-me/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/

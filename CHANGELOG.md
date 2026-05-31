@@ -32,7 +32,7 @@
 - `kelly-advisor/references/kelly-math.md` — 凱利公式三型、f*≤0 判讀、分數凱利對照表、破產/遍歷性數學、2016 偏誤硬幣實驗、計算誠實檢查清單。
 - `kelly-advisor/references/decision-protocol.md` — 分類決策樹、Mode 1/2/3 操作格式、5 個實戰範例（投資部位 / 7 產品時間配置 / 換工作拒答 / all-in 創業 / SKU 廣告加碼）、反例庫。
 - `README.md` / `LICENSE`（MIT）/ `.gitignore`（排除 for-me/）。
-- `references/for-me/strategy-and-monetization.md` — 私有：圓桌全紀錄 + 變現策略 + R18 治理（不進公開 repo）。
+- （另有作者私有開發筆記，以 `.gitignore` 排除，不進公開 repo。）
 
 ### 設計決策
 - **核心 = Mode 3 的「拒絕回答」**：對不可重複/不可逆/機率不可知的決策不給數字，改防破產清單 + 路由 genius-advisor。這是與一般凱利計算機最大的差異（Jobs 席：砍掉「萬用」框架）。

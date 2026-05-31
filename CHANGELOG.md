@@ -1,5 +1,8 @@
 # Changelog — kelly-advisor (repo)
 
+## v0.1.1 — 2026-05-31（dogfood hardening）
+首次實測（3 mode）抓到 2 漏洞並修補：① All-in tie-breaker（含「all-in/全押/停掉其他」→ 強制 Mode 3）② Mode 1 先定義 bankroll（避免把「佔總資產%」當「佔 bankroll%」）。詳見 `kelly-advisor/CHANGELOG.md` + decision-protocol G 段。
+
 ## v0.1 — 2026-05-31（initial）
 
 第一版。設計來源：2026-05-31 genius-advisor 7 席圓桌

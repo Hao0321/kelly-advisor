@@ -1,6 +1,6 @@
 ---
 name: kelly-advisor
-description: 凱利公式（Kelly Criterion）survival-first 決策工具。當使用者面對任何「可能賺也可能賠」的決策——投資部位、加碼/減碼、資源/時間配置、要不要押某個機會、該重押還是分散——想理性判斷「該押多少 / 該不該押 / 會不會破產」時觸發。觸發詞：「凱利公式」「Kelly criterion」「kelly」「該押多少」「下注多少」「部位多大」「該不該賭這個」「值得 all-in 嗎」「賠率」「期望值」「該不該投」「資金配置」「重押還是分散」「會不會破產」「risk of ruin」「該保守還是激進」「梭哈」「該加碼嗎」。也接：使用者描述一個有機率、有賺賠的決策並問「值不值得 / 該怎麼決定」。核心是 survival-first：先防破產、用分數凱利、對不可重複/不可逆/機率不可知的決策**拒絕給數字**並路由 genius-advisor 質化 panel。Use aggressively — 寧可觸發後讓使用者修正。
+description: 凱利公式（Kelly Criterion）survival-first 決策工具。當使用者面對任何「可能賺也可能賠」的決策——投資部位、加碼/減碼、資源/時間配置、要不要押某個機會、該重押還是分散——想理性判斷「該押多少 / 該不該押 / 會不會破產」時觸發。觸發詞：「凱利公式」「Kelly criterion」「kelly」「該押多少」「下注多少」「部位多大」「該不該賭這個」「值得 all-in 嗎」「賠率」「期望值」「該不該投」「資金配置」「重押還是分散」「會不會破產」「risk of ruin」「該保守還是激進」「梭哈」「該加碼嗎」。也接：使用者描述一個有機率、有賺賠的決策並問「值不值得 / 該怎麼決定」。核心是 survival-first：先防破產、用分數凱利、對不可重複/不可逆/機率不可知的決策**拒絕給數字**並路由 genius-advisor 質化 panel。English triggers: "Kelly criterion", "how much should I bet", "position size", "should I go all-in", "is this worth the risk", "risk of ruin", "bet sizing", "how much to invest", "should I bet on this", "fractional Kelly", or any description of a could-win-could-lose money decision asking "how much / should I". Use aggressively — 寧可觸發後讓使用者修正。
 ---
 
 <!--
